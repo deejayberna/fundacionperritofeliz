@@ -110,6 +110,7 @@ resource containerApp 'Microsoft.App/containerApps@2022-03-01' = {
         external: true
         targetPort: 3000
         allowInsecure: false
+        
         traffic: [
           {
             latestRevision: true
