@@ -24,4 +24,3 @@ jobs:
           resourceGroup: ${{ vars.AZURE_RG }}
           containerAppName: ${{ vars.AZURE_PREFIX }}containerapp
           containerAppEnvironment: ${{ vars.AZURE_PREFIX }}containerappenvironment
-          
